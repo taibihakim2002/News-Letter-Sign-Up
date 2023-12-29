@@ -33,9 +33,9 @@
 .box {
   display: flex;
   gap: 20px;
-  width: 860px;
+  width: 900px;
 }
-@media (max-width: 880px) {
+@media (max-width: 920px) {
   .box {
     width: 750px;
   }
@@ -61,7 +61,7 @@ h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .box .content h1 {
     font-size: 46px;
   }
