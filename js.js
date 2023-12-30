@@ -10,7 +10,7 @@ let thanksEmail = document.querySelector(".thanks-email");
 var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 emailForm.onsubmit = function (e) {
   e.preventDefault();
-  let emailValue = boxEmailField.value;
+  let emailValue = boxEmailField.value.trim();
   if(emailRegex.test(emailValue)){
     box.style.display= "none";
     thanks.style.display = "flex";
